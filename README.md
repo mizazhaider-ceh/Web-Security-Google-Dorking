@@ -36,7 +36,7 @@
 ### 💡 Repository Highlights
 
 ```mermaid
-%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','primaryColor':'#667eea','primaryTextColor':'#000','primaryBorderColor':'#7C0000','lineColor':'#F8B229','secondaryColor':'#764ba2','tertiaryColor':'#f093fb'}}}%%
+%%{init: {'theme':'white', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','primaryColor':'#667eea','primaryTextColor':'#000','primaryBorderColor':'#7C0000','lineColor':'#F8B229','secondaryColor':'#764ba2','tertiaryColor':'#f093fb'}}}%%
 mindmap
   root((🔍 Google Hacking<br/>Mastery))
     🎯 Offensive Testing
