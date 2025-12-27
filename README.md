@@ -36,7 +36,7 @@
 ### 💡 Repository Highlights
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#667eea','primaryTextColor':'#fff','primaryBorderColor':'#7C0000','lineColor':'#F8B229','secondaryColor':'#764ba2','tertiaryColor':'#f093fb'}}}%%
+%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','primaryColor':'#667eea','primaryTextColor':'#000','primaryBorderColor':'#7C0000','lineColor':'#F8B229','secondaryColor':'#764ba2','tertiaryColor':'#f093fb'}}}%%
 mindmap
   root((🔍 Google Hacking<br/>Mastery))
     🎯 Offensive Testing
@@ -64,7 +64,7 @@ mindmap
 ## 📊 Vulnerability Severity Breakdown
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'pie1':'#ff6b6b', 'pie2':'#f59f00', 'pie3':'#51cf66', 'pie4':'#339af0'}}}%%
+%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','pie1':'#ff6b6b', 'pie2':'#f59f00', 'pie3':'#51cf66', 'pie4':'#339af0'}}}%%
 pie title "CVSS Severity Distribution"
     "🔴 Critical (9.0-10.0)" : 4
     "🟠 High (7.0-8.9)" : 2
@@ -156,7 +156,7 @@ pie title "CVSS Severity Distribution"
 ### 📍 Complete Google Dorking Kill Chain
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'fontSize':'15px', 'fontFamily':'arial'}}}%%
+%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','noteBkgColor':'#ffffff','noteBorderColor':'#666','fontSize':'15px', 'fontFamily':'arial'}}}%%
 stateDiagram-v2
     [*] --> Reconnaissance
     
@@ -201,7 +201,7 @@ stateDiagram-v2
 ### 🔗 Typical Exploitation Chain
 
 ```mermaid
-%%{init: {'theme':'dark'}}%%
+%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff'}}}%%
 graph LR
     A["🔍 Google Dork<br/><code>site:target.com<br/>intitle:Index of</code>"] 
     
@@ -273,7 +273,7 @@ graph LR
 ### Architecture Overview
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'fontSize':'14px'}}}%%
+%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','clusterBkg':'#ffffff','fontSize':'14px'}}}%%
 graph TB
     subgraph Input["📥 INPUT LAYER"]
         A[Target Domain]
@@ -331,7 +331,7 @@ graph TB
 <div align="center">
 
 ```mermaid
-%%{init: {'theme':'dark', 'themeVariables': { 'fontSize':'14px'}}}%%
+%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','clusterBkg':'#ffffff','fontSize':'14px'}}}%%
 graph TB
     subgraph Layer1["🚫 LAYER 1: Prevent Crawling"]
         A["robots.txt<br/>Disallow sensitive paths"]
@@ -402,7 +402,7 @@ graph TB
 ### 📜 Authorized vs Prohibited Activities
 
 ```mermaid
-%%{init: {'theme':'base'}}%%
+%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','clusterBkg':'#ffffff'}}}%%
 flowchart LR
     subgraph Allowed["✅ AUTHORIZED ACTIVITIES"]
         A1["🏢 Your Own Systems"]
