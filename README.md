@@ -36,7 +36,7 @@
 ### 💡 Repository Highlights
 
 ```mermaid
-%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','primaryColor':'#667eea','primaryTextColor':'#000','primaryBorderColor':'#7C0000','lineColor':'#F8B229','secondaryColor':'#764ba2','tertiaryColor':'#f093fb'}}}%%
+%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','primaryColor':'#667eea','primaryTextColor':'#ffffff','primaryBorderColor':'#ffffff','lineColor':'#ffffff','secondaryColor':'#764ba2','tertiaryColor':'#f093fb','secondaryTextColor':'#ffffff','tertiaryTextColor':'#ffffff'}}}%%
 mindmap
   root((🔍 Google Hacking<br/>Mastery))
     🎯 Offensive Testing
@@ -64,7 +64,7 @@ mindmap
 ## 📊 Vulnerability Severity Breakdown
 
 ```mermaid
-%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','pie1':'#ff6b6b', 'pie2':'#f59f00', 'pie3':'#51cf66', 'pie4':'#339af0'}}}%%
+%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','pie1':'#ff6b6b', 'pie2':'#f59f00', 'pie3':'#51cf66', 'pie4':'#339af0','pieTitleTextColor':'#ffffff','pieTitleTextSize':'20px','pieLegendTextColor':'#ffffff','pieSectionTextColor':'#ffffff','pieStrokeColor':'#ffffff'}}}%%
 pie title "CVSS Severity Distribution"
     "🔴 Critical (9.0-10.0)" : 4
     "🟠 High (7.0-8.9)" : 2
@@ -156,7 +156,7 @@ pie title "CVSS Severity Distribution"
 ### 📍 Complete Google Dorking Kill Chain
 
 ```mermaid
-%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','noteBkgColor':'#ffffff','noteBorderColor':'#666','fontSize':'15px', 'fontFamily':'arial'}}}%%
+%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','noteBkgColor':'#667eea','noteBorderColor':'#ffffff','noteTextColor':'#ffffff','fontSize':'15px','fontFamily':'arial','labelTextColor':'#ffffff','lineColor':'#ffffff','edgeLabelBackground':'#667eea','transitionColor':'#ffffff','transitionLabelColor':'#ffffff'}}}%%
 stateDiagram-v2
     [*] --> Reconnaissance
     
@@ -201,23 +201,23 @@ stateDiagram-v2
 ### 🔗 Typical Exploitation Chain
 
 ```mermaid
-%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff'}}}%%
+%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','lineColor':'#ffffff','edgeLabelBackground':'#667eea'}}}%%
 graph LR
     A["🔍 Google Dork<br/><code>site:target.com<br/>intitle:Index of</code>"] 
     
-    A ==> B["� Discovery<br/>Exposed directory<br/>/files/"]
+    A ==> B["📂 Discovery<br/>Exposed directory<br/>/files/"]
     
     B ==> C["📄 Access<br/>database.yml<br/>config file"]
     
     C ==> D["🔑 Extract<br/>root:password<br/>credentials"]
     
-    D ==> E["� Compromise<br/>Full database<br/>access"]
+    D ==> E["💀 Compromise<br/>Full database<br/>access"]
     
-    style A fill:#667eea,stroke:#333,stroke-width:2px,color:#fff
-    style B fill:#764ba2,stroke:#333,stroke-width:2px,color:#fff
-    style C fill:#f093fb,stroke:#333,stroke-width:2px,color:#fff
-    style D fill:#fa709a,stroke:#333,stroke-width:2px,color:#fff
-    style E fill:#ff6b6b,stroke:#333,stroke-width:3px,color:#fff
+    style A fill:#667eea,stroke:#ffffff,stroke-width:2px,color:#fff
+    style B fill:#764ba2,stroke:#ffffff,stroke-width:2px,color:#fff
+    style C fill:#f093fb,stroke:#ffffff,stroke-width:2px,color:#fff
+    style D fill:#fa709a,stroke:#ffffff,stroke-width:2px,color:#fff
+    style E fill:#ff6b6b,stroke:#ffffff,stroke-width:3px,color:#fff
 ```
 
 ---
@@ -273,7 +273,7 @@ graph LR
 ### Architecture Overview
 
 ```mermaid
-%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','clusterBkg':'#ffffff','fontSize':'14px'}}}%%
+%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','clusterBkg':'#ffffff','fontSize':'14px','lineColor':'#ffffff','edgeLabelBackground':'#667eea','clusterBorder':'#ffffff'}}}%%
 graph TB
     subgraph Input["📥 INPUT LAYER"]
         A[Target Domain]
@@ -309,10 +309,10 @@ graph TB
     I --> J
     J --> K & L & M
     
-    style Input fill:#667eea,stroke:#333,stroke-width:2px,color:#fff
-    style Engines fill:#0984e3,stroke:#333,stroke-width:2px,color:#fff
-    style Processing fill:#6c5ce7,stroke:#333,stroke-width:2px,color:#fff
-    style Output fill:#00b894,stroke:#333,stroke-width:2px,color:#fff
+    style Input fill:#667eea,stroke:#ffffff,stroke-width:2px,color:#fff
+    style Engines fill:#0984e3,stroke:#ffffff,stroke-width:2px,color:#fff
+    style Processing fill:#6c5ce7,stroke:#ffffff,stroke-width:2px,color:#fff
+    style Output fill:#00b894,stroke:#ffffff,stroke-width:2px,color:#fff
 ```
 
 ### ✨ Key Features
@@ -331,7 +331,7 @@ graph TB
 <div align="center">
 
 ```mermaid
-%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','clusterBkg':'#ffffff','fontSize':'14px'}}}%%
+%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','clusterBkg':'#ffffff','fontSize':'14px','lineColor':'#ffffff','edgeLabelBackground':'#667eea','clusterBorder':'#ffffff'}}}%%
 graph TB
     subgraph Layer1["🚫 LAYER 1: Prevent Crawling"]
         A["robots.txt<br/>Disallow sensitive paths"]
@@ -354,9 +354,9 @@ graph TB
     Layer1 -.->|If bypassed| Layer2
     Layer2 -.->|Defense in depth| Layer3
     
-    style Layer1 fill:#51cf66,stroke:#2f9e44,stroke-width:2px,color:#000
-    style Layer2 fill:#4dabf7,stroke:#1971c2,stroke-width:2px,color:#000
-    style Layer3 fill:#ff8787,stroke:#c92a2a,stroke-width:2px,color:#000
+    style Layer1 fill:#51cf66,stroke:#ffffff,stroke-width:2px,color:#fff
+    style Layer2 fill:#4dabf7,stroke:#ffffff,stroke-width:2px,color:#fff
+    style Layer3 fill:#ff8787,stroke:#ffffff,stroke-width:2px,color:#fff
 ```
 </div>
 
@@ -402,7 +402,7 @@ graph TB
 ### 📜 Authorized vs Prohibited Activities
 
 ```mermaid
-%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','clusterBkg':'#ffffff'}}}%%
+%%{init: {'theme':'default', 'themeVariables': { 'background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#ffffff','tertiaryBkg':'#ffffff','clusterBkg':'#ffffff','lineColor':'#ffffff','edgeLabelBackground':'#667eea','clusterBorder':'#ffffff'}}}%%
 flowchart LR
     subgraph Allowed["✅ AUTHORIZED ACTIVITIES"]
         A1["🏢 Your Own Systems"]
@@ -418,8 +418,8 @@ flowchart LR
         P4["⚠️ Blackmail/Extortion"]
     end
     
-    style Allowed fill:#51cf66,stroke:#2f9e44,stroke-width:3px,color:#000
-    style Prohibited fill:#ff6b6b,stroke:#c92a2a,stroke-width:3px,color:#fff
+    style Allowed fill:#51cf66,stroke:#ffffff,stroke-width:3px,color:#fff
+    style Prohibited fill:#ff6b6b,stroke:#ffffff,stroke-width:3px,color:#fff
 ```
 
 ### ⚠️ Legal Notice
