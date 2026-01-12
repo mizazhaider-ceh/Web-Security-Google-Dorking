@@ -1,4 +1,4 @@
-# 🔍 Web Application Security Testing with Google Hacking
+# 🔍 Web Application Security Testing with Google Hacking 🐦‍🔥
 
 <div align="center">
 
