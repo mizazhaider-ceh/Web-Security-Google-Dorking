@@ -4,7 +4,7 @@
 
 [![License: Educational](https://img.shields.io/badge/License-Educational-blue.svg)](LICENSE)
 [![Course: EC-Council](https://img.shields.io/badge/Course-EC--Council-red.svg)](https://www.eccouncil.org/)
-[![Author: Muhammad Izaz Haider](https://img.shields.io/badge/Author-Muhammad%20Izaz%20Haider-green.svg)](https://github.com/yourusername)
+[![Author: Muhammad Izaz Haider](https://img.shields.io/badge/Author-Muhammad%20Izaz%20Haider-green.svg)](https://github.com/mizazhaider-ceh)
 [![Writeups: 8](https://img.shields.io/badge/Writeups-8-orange.svg)](#-writeups)
 
 **A comprehensive collection of penetration testing writeups demonstrating Google Dorking techniques for web application security testing.**
@@ -13,6 +13,7 @@
 [Writeups](#-writeups) •
 [Attack Flow](#-attack-methodology) •
 [Defense](#-defense-strategy) •
+[Cheat Sheet](DORK-CHEATSHEET.md) •
 [Resources](#-resources)
 
 </div>
@@ -392,7 +393,7 @@ graph TB
 | **Amass** | In-depth subdomain enumeration | [GitHub](https://github.com/owasp-amass/amass) |
 | **theHarvester** | OSINT data gathering | [GitHub](https://github.com/laramies/theHarvester) |
 | **Pagodo** | Automated GHDB scanning | [GitHub](https://github.com/opsdisk/pagodo) |
-| **DorkScout** | Google Dork scanner | [GitHub](https://github.com/enenumxela/dorkscout) |
+| **DorkScout** | Google Dork scanner (unmaintained, archived) | [GitHub](https://github.com/R4yGM/dorkscout) |
 | **GHunt** | Google account OSINT | [GitHub](https://github.com/mxrch/GHunt) |
 
 ---
@@ -476,7 +477,7 @@ This repository documents practical exercises from:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammad%20Izaz%20Haider-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-izaz-haider-091639314/)
 [![GitHub](https://img.shields.io/badge/GitHub-mizazhaider--ceh-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mizazhaider-ceh)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Now-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mizazhaider-ceh.github.io/My-Portfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Now-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.mizazhaider-ceh.dev/)
 
 ---
 
